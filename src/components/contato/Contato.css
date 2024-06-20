@@ -1,0 +1,78 @@
+.contact {
+  border: solid 1px;
+  border-radius: 20px;
+}
+.container.contact_container {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 10%;
+  margin-bottom: 200px;
+}
+.contact_options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact_option {
+  border-radius: 1rem;
+  background: #d3d3d3;
+  border: 1px solid transparent;
+  padding: 2rem;
+  text-align: center;
+}
+.contact_option:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  backdrop-filter: blur(10px);
+}
+.contact_option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border: 2px solid var(--color-primary-variant);
+  border-radius: 0.5rem;
+}
+.input_box {
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+/* ========== MEDIA QUERIES (médio) ===========*/
+@media screen and (max-width: 1024px) {
+  .container.contact_container {
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    margin-bottom: 200px;
+    justify-content: center;
+  }
+  .contact_options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+  }
+}
+
+/* ========== MEDIA QUERIES (médio) ===========*/
+@media screen and (max-width: 600px) {
+  .contact_options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

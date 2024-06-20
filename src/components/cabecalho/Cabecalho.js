@@ -1,30 +1,19 @@
 import React from "react";
 import "./Cabecalho.css";
-
+import { LuCode2 } from "react-icons/lu";
 const Cabecalho = () => {
   return (
-    <section className="nav_back">
-      <ul className="lista_nav1">
-        <img
-          src="https://icongr.am/clarity/resistor.svg?size=128&color=d3d3d3"
-          alt=""
-        />
-      </ul>
+    <header className="nav_back">
+      <a href="#" className="lista_nav1">
+        <LuCode2 size={60} className="icon" />
+      </a>
       <ul className="lista_nav">
-        <li>
-          <a href="#">Experiência</a>
-        </li>
-        <li>
-          <a href="#">Sobre mim</a>
-        </li>
-        <li>
-          <a href="#">Projetos</a>
-        </li>
-        <li>
-          <a href="#">Contato</a>
-        </li>
+        <a href="#">Sobre mim</a>
+        <a href="#">Experiência</a>
+        <a href="#">Projetos</a>
+        <a href="#">Contato</a>
       </ul>
-    </section>
+    </header>
   );
 };
 
