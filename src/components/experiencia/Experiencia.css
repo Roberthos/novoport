@@ -61,4 +61,6 @@ h4 {
 .exp_stacks img {
   height: 80px;
   width: 80px;
+  justify-content: space-between;
+  display: flex;
 }

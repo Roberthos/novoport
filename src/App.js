@@ -10,14 +10,14 @@ import Rodape from "./components/rodape/Rodape";
 
 const App = () => {
   return (
-    <div className="pai">
+    <>
       <Cabecalho />
       <Corpo />
       <Experiencia />
       <Projetos />
       <Contato />
       <Rodape />
-    </div>
+    </>
   );
 };
 export default App;

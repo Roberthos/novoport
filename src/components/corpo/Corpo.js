@@ -6,7 +6,7 @@ const Corpo = () => {
     <section className="nova_section">
       <div className="section1">
         <p className="text">
-          Meu nome é xxxxxxxxxxx, sou um desenvolvedor front-end baseado em
+          Meu nome é Roberth Oliveira, sou um desenvolvedor front-end baseado em
           Torquay, Devon, Reino Unido. Desenvolvi muitos tipos de front-ends,
           desde aplicativos de DJ bem conhecidos até plataformas de reservas de
           comércio eletrônico. Sou apaixonado por interfaces bonitas, de última

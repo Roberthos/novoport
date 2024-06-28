@@ -90,18 +90,9 @@ const Experiencia = () => {
 
         <div className="exp_stacks">
           <p>parte 2 da area de xp, colocar as stacks</p>
-          <img
-            src="https://img.icons8.com/?size=100&id=JAOzEPu9w5iE&format=png&color=000000"
-            alt=""
-          />
-          <img
-            src="https://img.icons8.com/?size=100&id=Nkym0Ujb8VGI&format=png&color=000000"
-            alt=""
-          />
-          <img
-            src="https://img.icons8.com/?size=100&id=zRvbzAjx4VWY&format=png&color=000000"
-            alt=""
-          />
+
+          <img src="./assets/css_icon.png" alt="" />
+          <img src="./assets/php_icon.png" alt="" />
         </div>
       </div>
     </div>
